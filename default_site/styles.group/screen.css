@@ -501,7 +501,6 @@ table {
 
 
 
-/* FANCYBOX */
 /*! fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -550,11 +549,6 @@ table {
 
 .fancybox-outer, .fancybox-inner {
   position: relative;
-}
-
-/**/
-.fancybox-outer {
-	margin-top: 40px;
 }
 
 .fancybox-inner {
@@ -608,17 +602,12 @@ table {
 
 .fancybox-close {
   position: absolute;
-/*  top: 15px;
-  right: 31px;*/
-/*  top: -14px;
-  right: -14px;*/
-  top: 10px;
-  right: 13px;
+  top: -18px;
+  right: -18px;
   width: 36px;
   height: 36px;
   cursor: pointer;
   z-index: 8040;
-  /*background: url('/themes/site_themes/default_site/img/close_btn.png') no-repeat;*/
 }
 
 .fancybox-nav {
@@ -680,7 +669,6 @@ table {
 
 .fancybox-lock {
   overflow: hidden;
-  margin: 0 !important;
 }
 
 .fancybox-overlay {
@@ -701,7 +689,7 @@ table {
 
 .fancybox-lock .fancybox-overlay {
   overflow: auto;
-  /*overflow-y: scroll;*/
+  overflow-y: scroll;
 }
 
 /* Title helper */
@@ -762,4 +750,3 @@ table {
   background: #000;
   background: rgba(0, 0, 0, .8);
 }
-
